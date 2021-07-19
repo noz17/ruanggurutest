@@ -353,7 +353,7 @@
 			"responsive": true,
 		});
 		$.ajaxSetup({
-                    headers: {
+                    header: {
           
                         'Content-Type': 'application/json',
                         
@@ -361,7 +361,7 @@
                 });
                 $.ajax({
                     method: 'GET',
-                    url: 'https://us-central1-silicon-airlock-153323.cloudfunctions.net/rg-packagedummy',
+                    url: 'https://us-central1-silicon-airlock-153323.cloudfunctions.net/rg-package-dummy',
                     data:{'userId':'anugrahaman71'},
                     success: function(result) {
 
